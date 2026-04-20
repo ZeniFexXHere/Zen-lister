@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zen Lister V2</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="popup__header">
+        <h1>Zen Lister V2</h1>
+        <span class="popup__badge">PREMIUM</span>
+      </header>
+
+      <div id="popupStatus" class="popup__status">Ready</div>
+
+      <section class="popup__actions">
+        <button data-action="openPanel">Open Panel</button>
+        <button data-action="detectFields">Detect Fields</button>
+        <button data-action="uploadImage">Upload Image</button>
+        <button data-action="analyzeProduct">Analyze Product</button>
+        <button data-action="fillListing">Fill Listing</button>
+        <button data-action="stop">Stop</button>
+      </section>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+  </html>
